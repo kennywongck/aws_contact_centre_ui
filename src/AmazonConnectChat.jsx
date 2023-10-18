@@ -6,7 +6,8 @@ const AmazonConnectChat = () => {
       const script = document.createElement('script');
       script.src = 'https://db08fjupg2abb.cloudfront.net/amazon-connect-chat-interface-client.js';
       script.async = true;
-      script.id = 'amazon-connect-script';
+//      script.id = 'amazon-connect-script';
+      script.id = '969e3d4f-ff54-495c-a755-954629e6b281';
       document.getElementsByTagName('head')[0].appendChild(script);
       window.amazon_connect = window.amazon_connect || function() { (window.amazon_connect.ac = window.amazon_connect.ac || []).push(arguments) };
     };
