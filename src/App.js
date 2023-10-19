@@ -21,7 +21,13 @@ function App() {
         </a>
       </header>
       {/* Render the AmazonConnectChat component */}
-      <AmazonConnectChat />
+      {/*<AmazonConnectChat />*/}
+      <div>
+        {/* Other components */}
+        <AmazonConnectChat />
+        {/* Other components */}
+      </div>
+
     </div>
   );
 }
